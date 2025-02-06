@@ -9,7 +9,9 @@ function Banner() {
   return (
     <div className="Banner">
       <div className="logoGLA">
-        <img src={GlaLogo} className="logoGLA" alt="GLA logo" />
+        <h1>
+          <img src={GlaLogo} className="logoGLA" alt="Gift Life Adventures" />
+        </h1>
       </div>
       <div className="nav">
         <div className="click" onClick={() => scrollToSection('section1')}>Home</div>

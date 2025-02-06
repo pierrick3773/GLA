@@ -1,11 +1,14 @@
 .logoGLA{
   display: flex;
-  width: 40%; /* Définit la largeur de l'image à 20% de la largeur de son conteneur */
+  width: 62%; /* Définit la largeur de l'image à 20% de la largeur de son conteneur */
   height: auto;
   padding-left: 2rem;
   padding-top: 4px;
   padding-bottom: 4px;
   
+}
+h1{
+  margin: 0;
 }
 img{
   width: 50%; /* Définit la largeur de l'image à 20% de la largeur de son conteneur */

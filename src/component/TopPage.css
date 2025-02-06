@@ -1,0 +1,21 @@
+h2{
+  font-family: "Inter";
+  font-weight: 800;
+  font-weight: bold;
+  z-index: 5;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.Mountain{
+  width: 100%;
+  z-index: 1;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.TopContainer{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
